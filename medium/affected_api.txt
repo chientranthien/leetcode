@@ -1,0 +1,22 @@
+ cmd																														latency		delta
+ ---------------------------------------------------------------------------------
+ CreateMultiOrder																								130				1.15%
+ order.order_info.update_checkout_status_paid_non_tcc						30 ms			5%
+ order.order_info.update_order_status_paid_confirm							18 ms			8.33%
+ order.order_info.update_checkout_status_paid_confirm						25 ms			6%
+ order.order_info.update_order_status_cancel_pending						17 ms			8.82%
+ order.order_info.update_checkout_status_no_match								8 ms			18.75%
+ order.order_info.update_order_status_completed									6 ms			25%
+ order.order_info.update_order_status_cancel_completed					5 ms 			30%
+ order.order_info.update_order_escrow_status_non_tcc						5 ms 			30%
+ order.order_info.update_order_status_unpaid										5 ms 			30%
+ order.order_info.update_order_logistics												5 ms 			30%
+ order.order_info.update_order_status_cancel_processing					5 ms 			30%
+ order.order_info.update_checkout_status_paid_try								5 ms 			30%
+ order.order_info.update_order_shipping_cushion_times						5 ms 			30%
+ order.order_info.update_order_detailed_statuses								5 ms 			30%
+ order.order_info.update_order_lock_status_batch								5 ms 			30%
+ order.order_info.update_order_status_paid_try									5 ms 			30%
+ order.order_info.update_order_status_paid											5 ms 			30%
+ order.order_info.update_order_seller_note											5 ms 			30%
+ order.order_info.update_checkout_status_overpaid								25 ms			6%
